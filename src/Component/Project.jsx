@@ -81,10 +81,10 @@ export default function Project() {
                     <div>
                         <img src="project1.jpg" alt="" className='rounded-t-lg' />
                     </div>
-                    <div className='px-[6px] md:px-[20px] py-[20px]'>
+                    <div className='px-[20px] py-[20px]'>
                         <h1 className='text-[17px] font-[500] text-orange-500'>The farm house club</h1>
                         <p className='text-gray-400 text-[16px] font-[500] mb-[0.8rem]'>A full stack web application for investors in the agricultural industry</p>
-                        <div className='flex mb-[1.5rem] gap-[3px] md:gap-[5px] items-center text-center'>
+                        <div className='flex mb-[1.5rem] gap-[6px] md:gap-[5px] items-center text-center'>
                             {
                                 ['JSX', 'CSS', 'Javascript', 'Node.js', 'Express.js', 'MongoDB'].map((tech, index) => (
                                     <motion.span
@@ -94,7 +94,7 @@ export default function Project() {
                                         whileInView={{ opacity: 1, scale: 1 }}
                                         transition={{ duration: 0.6, delay: index * 0.2 }}
                                         viewport={{ once: true }}
-                                        className='px-[7px] py-[3px] bg-[#28282b] text-white font-[400] rounded-[20px] text-[13px]'
+                                        className='px-[7px] py-[3px] bg-[#28282b] text-white font-[400] rounded-[20px] text-[11px] md:text-[13px]'
                                     >
                                         {tech}
                                     </motion.span>
@@ -115,12 +115,17 @@ export default function Project() {
                     <div className='px-[20px] py-[20px]'>
                         <h1 className='text-[17px] font-[500] text-orange-500'>The farm house club</h1>
                         <p className='text-gray-400 text-[16px] font-[500] mb-[0.8rem]'>A full stack web application for investors in the agricultural industry</p>
-                        <div className='flex mb-[1.5rem] gap-[5px] items-center text-center'>
+                        <div className='flex mb-[1.5rem] gap-[7px] md:gap-[5px] items-center text-center'>
                             {
                                 ['HTML', 'CSS', 'Javascript', 'React', 'Boostrap', 'Node.js'].map((tech, index) => (
                                     <span
                                         key={tech}
-                                        className='px-[7px] py-[3px] bg-[#28282b] text-white font-[400] rounded-[20px] text-[13px]'
+                                        initial={{ opacity: 0, scale: 0.8 }}
+                                        whileInView={{ opacity: 1, scale: 1 }}
+                                        transition={{ duration: 0.6, delay: index * 0.2 }}
+                                        viewport={{ once: true }}
+
+                                        className='px-[7px] py-[3px] bg-[#28282b] text-white font-[500] md:font-[400] rounded-[20px] text-[11px] md:text-[13px]'
                                     >
                                         {tech}
                                     </span>
@@ -141,12 +146,16 @@ export default function Project() {
                     <div className='px-[20px] py-[20px]'>
                         <h1 className='text-[17px] font-[500] text-orange-500'>The farm house club</h1>
                         <p className='text-gray-400 text-[16px] font-[500] mb-[0.8rem]'>A full stack web application for investors in the agricultural industry</p>
-                        <div className='flex mb-[1.5rem] gap-[5px] items-center text-center'>
+                        <div className='flex mb-[1.5rem] gap-[7px] md:gap-[5px] items-center text-center'>
                             {
                                 ['JSX', 'CSS', 'Javascript', 'React', 'Tailwind.Css', 'Node.js'].map((tech, index) => (
                                     <span
                                         key={tech}
-                                        className='px-[7px] py-[3px] bg-[#28282b] text-white font-[400] rounded-[20px] text-[13px]'
+                                        initial={{ opacity: 0, scale: 0.8 }}
+                                        whileInView={{ opacity: 1, scale: 1 }}
+                                        transition={{ duration: 0.6, delay: index * 0.2 }}
+                                        viewport={{ once: true }}
+                                        className='px-[7px] py-[3px] bg-[#28282b] text-white font-[400] rounded-[20px] text-[11px] md:text-[13px]'
                                     >
                                         {tech}
                                     </span>

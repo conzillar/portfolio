@@ -89,12 +89,12 @@ export default function HeroSection() {
                 <SlideUp delay={800} duration={800}>
                     <button 
                         className='px-[100px] w-[100%] md:w-[40%] py-[10px] md:py-[2px] md:px-[30px] md:mb-[15px] mt-[1rem] mb-[0.5rem] items-center cursor-pointer hover:bg-[#ff5100e0] transition-all duration-800 ease-in-out md:mt-[1rem] border border-gray-700 rounded-[5px] bg-[black] text-white'
-                        // onClick={() => {
-                        //     const contactSection = document.getElementById('contact');
-                        //     if (contactSection) {
-                        //         contactSection.scrollIntoView({ behavior: 'smooth' });
-                        //     }
-                        // }}
+                        onClick={() => {
+                            const contactSection = document.getElementById('contact');
+                            if (contactSection) {
+                                contactSection.scrollIntoView({ behavior: 'smooth' });
+                            }
+                        }}
                     >
                         Contact Me
                     </button>

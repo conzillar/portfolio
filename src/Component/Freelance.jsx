@@ -114,7 +114,7 @@ export default function Freelance() {
                   whileInView={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.6, delay: index * 0.2 }}
                   viewport={{ once: true }}
-                  className='px-2 md:px-4 md:py-2 text-sm font-medium rounded-full bg-[#1f110b] text-[#ea580c] border border-[#ea580c]/20'
+                  className='px-[10px] md:px-4 md:py-2 text-[12px] md:text-[15px] font-medium rounded-full bg-[#1f110b] text-[#ea580c] border border-[#ea580c]/20'
                 >
                   {tech}
                 </motion.span>
